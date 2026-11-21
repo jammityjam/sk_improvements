@@ -1,0 +1,20 @@
+name: Build Sonic 3K Improvements
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run build script
+        run: cmd /c buildS3Complete.bat
+
+      - name: Upload compiled ROM
+        uses: actions/upload-artifact@v4
+        with:
+          name: sonic3k-instashield
+          path: "*.bin"
