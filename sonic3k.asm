@@ -57,7 +57,7 @@ FeatureSmoothSlots = 1
 ;	| The Slots bonus stage rotates in 256 steps instead of 64
 FeatureBlueKnuckles = 1
 ;	| Player mode 4, Blue Knuckles, can be picked in the Level Select
-FeatureHomingAttack = 1
+FeatureHomingAttack = 0
 ;	| A/B/C in the air: Sonic's Homing Attack, or Jump Dash without a target,
 ;	| instead of the Insta-Shield; elemental shields keep their own moves
 FeatureSuperToggle = 1
