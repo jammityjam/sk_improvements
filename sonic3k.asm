@@ -47,7 +47,7 @@ FixBugs = 1
 ; is never entered, so data layouts and other features do not change.
 FeatureRollJumpSteering = 1
 ;	| Allow steering after jumping from a roll
-FeatureAirRoll = 1
+FeatureAirRoll = 0
 ;	| Press A/B/C in the air (after a spring, for example) to curl into a ball
 FeatureInstantTally = 1
 ;	| Holding A/B/C finishes the act bonus count at once
@@ -62,7 +62,7 @@ FeatureHomingAttack = 0
 ;	| instead of the Insta-Shield; elemental shields keep their own moves
 FeatureSuperToggle = 1
 ;	| A+B/A+C/B+C transforms and reverts every player character in a jump
-FeatureExtendedCamera = 1
+FeatureExtendedCamera = 0
 ;	| Let the camera look ahead of the player at speed and while charging a Spin Dash
 FeatureExtraLives = 1
 ;	| An extra life for every 100 rings; 0 = only at 100 and 200 rings
